@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.light .bg-white {
+  background-color: white;
+}
+
+body.light .text-gray-800 {
+  color: black;
+}
+
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark .bg-white {
+  background-color: #1f1f1f;
+}
+
+body.dark .text-gray-800 {
+  color: white;
+}
