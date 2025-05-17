@@ -41,7 +41,7 @@ const App = () => {
       <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen px-4 gap-8">
         <button
           onClick={toggleTheme}
-          className="absolute top-4 right-4 bg-gray-800 text-white py-2 px-4 rounded-full text-sm md:text-lg"
+          className="absolute top-4 right-4 bg-gray-800 cursor-pointer text-white py-2 px-4 rounded-full text-sm md:text-lg"
         >
           {theme === "dark" ? "Light Mode" : "Dark Mode"}
         </button>

@@ -50,7 +50,7 @@ const SignIn = () => {
 
         <button
           type="submit"
-          className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition duration-200"
+          className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition duration-200 cursor-pointer"
         >
           Sign In
         </button>
@@ -59,7 +59,7 @@ const SignIn = () => {
       <p className="text-sm text-center mt-4">
         Don't have an account?{" "}
         <button
-          className="text-blue-600 hover:underline"
+          className="text-blue-600 hover:underline cursor-pointer"
           onClick={() => settoggler(!toggler)}
         >
           Sign Up

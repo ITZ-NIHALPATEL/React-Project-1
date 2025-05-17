@@ -37,7 +37,7 @@ const DataWrapper = (props) => {
   };
 
   return (
-    <UserContext.Provider
+    <UserContext
       value={{
         toggler,
         settoggler,
@@ -53,7 +53,7 @@ const DataWrapper = (props) => {
       }}
     >
       {props.children}
-    </UserContext.Provider>
+    </UserContext>
   );
 };
 
