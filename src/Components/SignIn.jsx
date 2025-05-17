@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { UserContext } from "../../Context/DataWrapper";
 
-const SignIn = (props) => {
-  const { settoggler, toggler, register, handleSubmit, submithanlder, theme } =
-    props;
+const SignIn = () => {
+  const { settoggler, toggler, submithanlder, theme, register, handleSubmit } =
+    useContext(UserContext);
 
   return (
     <div

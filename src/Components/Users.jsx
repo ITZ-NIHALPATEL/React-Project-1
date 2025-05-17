@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import { UserContext } from "../../Context/DataWrapper";
 
-const Users = (props) => {
-  const { users, setUsers, theme } = props;
+const Users = () => {
+  const { users, setUsers, theme } = useContext(UserContext);
 
   const deleteHandler = (id) => {
     if (window.confirm("Are you sure you want to delete this user?")) {
