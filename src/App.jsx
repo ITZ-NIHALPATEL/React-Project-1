@@ -4,7 +4,7 @@ import SignIn from "./Components/SignIn";
 import Users from "./Components/Users";
 import { ToastContainer} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { UserContext } from "../Context/DataWrapper";
+import { UserContext } from "./Context/DataWrapper.jsx";
 
 const App = () => {
   const { toggler, users, setUsers, theme, setTheme } =

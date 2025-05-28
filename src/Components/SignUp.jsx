@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { UserContext } from "../../Context/DataWrapper";
+import { UserContext } from "../Context/DataWrapper.jsx";
 
 const SignUp = () => {
   const { settoggler, toggler, onSubmit, theme, register, handleSubmit } =

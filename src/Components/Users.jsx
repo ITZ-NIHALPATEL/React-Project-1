@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { UserContext } from "../../Context/DataWrapper";
+import { UserContext } from "../Context/DataWrapper.jsx";
 
 const Users = () => {
   const { users, setUsers, theme } = useContext(UserContext);
